@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Pokemon;
+    src: url(../Pokemon_Solid.ttf);
+}
+
+:root{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: repeat;
+
+
+}
+
+h1{
+    font-family: 'Pokemon';
+    color: yellow;
+    text-shadow: -1px 0 blue, 0 10px blue, 1px 0 blue, -1px 0 blue;
+    font-size: 5rem;
+    text-align: center;
+}
+
+table{
+    width: 80%;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.515);
+    padding: 20px;
+    border-spacing: 10px;
+}
+
+td{
+    background-color: rgb(217, 191, 191);
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+    border: 2px solid rgb(74, 17, 33);
+}
+
+img{
+    height: 150px;
+}
+
+.nombre{
+    font-family: sans-serif;
+}
+
+tr#con_imagen_de_fondo{
+    height: 250px;    
+}
+
+tr#con_imagen_de_fondo td{
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 16rem;
+    background-position: 50%;
+}
+
+td#Charmeleon{
+background-image: url(../img/charmeleon.png);
+
+}
+
+td#Charizar{
+background-image: url(../img/charizar.png);
+}
+
+td#Squirtle{
+background-image: url(../img/squirtle.png);
+}
+
+td#Wartortle{
+background-image: url(../img/wartortle.png);
+}
+
+/* FORMULARIO */
+
+#formulario {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 80%;
+    margin: auto;   /* centra horizontalmente un elemento de bloque dentro del contenedor*/
+    margin-top: 2rem;
+    padding: 1rem;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+.elemento label, .elemento input {
+    display: inline-block;    /* se va a comportar como un bloque, uno encima de otro*/
+    width: 10rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+
+#ejemplo_display {
+    background-color: rgba(0, 0, 0, 0.508);
+    width: 800px;
+    height: 300px;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.dentro{
+    background-color: rgb(241, 251, 222);
+    min-width: 100px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1rem;
+    display: inline-block;
+    border-radius: 5px;
+}
